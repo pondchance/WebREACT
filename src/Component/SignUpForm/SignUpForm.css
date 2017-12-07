@@ -1,5 +1,10 @@
 Form{
-   background-color: #EDEDED;
-   color: white;
+   background-color: #7B1C1C;
+   color: #000000;
     margin: 100px;
+    
+}
+body{
+    background-image: url(p.jpeg);
+    background-size: 1400px 950px;
 }

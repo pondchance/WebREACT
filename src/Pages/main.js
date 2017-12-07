@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import App from '../Component/header/App';
-//import logo from './p.jpg';
+import Choose from '../Component/choose/choose';
+
+
 
 
 class Main extends Component {
@@ -8,9 +10,8 @@ class Main extends Component {
     return (
       
       <div className="Main">
-       
        <App/>
-       
+      <Choose/>
       </div>
     );
   }

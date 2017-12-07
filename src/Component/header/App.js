@@ -1,52 +1,57 @@
-import React from 'react';
-//import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
-import ButtonLink from '../nav/nav';
-const App = () => (
-
-  <div className="App">
-    <header className="App-header">
-      <div class="ui massive fixed inverted borderless menu">
-        <div class="ui container">
-          <a class="header item" href="/">Project Name</a>
-          <a class="active item" href="/">Home</a>
-          <a class="item" href="/">About</a>
-          <a class="item" href="/">Contact</a>
 
 
-          <div class="right menu">
-            <div class="ui form"><br />
-              <div class="inline fields">
-                <div class="field">
 
-                  <input placeholder="Email" type="text" />
-                </div>
-                <div class="field">
-                  <input placeholder="Password" type="text" />
-                </div>
-                <div class="field">
-                  <button class="ui green button">
-                    Sign in
+
+class App extends Component {
+
+    
+  render() {
+    return (
+
+      <div className="App">
+
+        <div class="ui massive fixed inverted borderless menu" >
+          <div class="ui container">
+            <a class="header item" href="/">PS POST</a> 
+
+            <div class="right menu">
+              <div class="ui form"><br />
+                <div class="inline fields">
+
+                  <div class="field">
+                    <input placeholder="Username" type="text" name="username"
+                   />
+                  </div>
+
+                  <div class="field">
+                    <input placeholder="Password" type="text" name="password" 
+                   />
+                  </div>
+
+         
+
+
+
+                  <div class="field">
+                    <button type='submit' class="ui green button">
+                      Log in
                 </button>
-                  <a href="/SignUp"> <button class="ui green button" >
-                    Sign Up
-               </button></a>
-
+                  </div>
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
+
+        
+
+
       </div>
-
-      <br />
-
-      <h1 className="App-title">Welcome to Website</h1>
-
-      <ButtonLink />
-    </header>
-
-  </div>
-)
-
+    );
+  }
+}
 export default App;

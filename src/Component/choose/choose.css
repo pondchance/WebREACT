@@ -1,0 +1,35 @@
+.ui.inverted.vertical.segment {
+    height: 100vh;
+  }
+  .ui.inverted.vertical.segment h1.header.item {
+    font-size: 2em;
+  }
+  .ui.inverted.vertical.segment a.item {
+    font-size: 1.2em;
+  }
+  .ui.inverted.vertical.segment .ui.text.container {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .ui.inverted.vertical.segment .ui.text.container h1.header {
+    font-size: 3em;
+  }
+  .ui.inverted.vertical.segment .ui.text.container p {
+    font-size: 1.6em;
+    
+  }
+.ui.inverted.vertical.center.aligned.segment{
+   /* background-image: url(p.jpeg);*/
+   background-color: #0C0C0C;
+    background-size: 1400px 950px;
+
+}
+.ui.divider.horizontal{
+color: #EEEEEE;
+font-size:1.6em;
+}
