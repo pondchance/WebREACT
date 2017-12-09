@@ -13,7 +13,7 @@ class SignUpForm extends Component {
     render() {
         return (
 
-            
+            <div className="S">
 
             <Form>
                 <Header as='h2' attached='top'>
@@ -50,7 +50,7 @@ class SignUpForm extends Component {
                 <a href="/"><Button type='sumbit'>Submit</Button></a>  </Container> </Segment>
             </Form >
 
-
+</div>
         )
     }
 }

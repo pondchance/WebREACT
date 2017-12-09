@@ -1,6 +1,6 @@
 import React from 'react';
 import './choose.css'
-import { Icon} from 'semantic-ui-react'
+import { Icon,Button} from 'semantic-ui-react'
 const Choose = () => (
 
     <div className="Choose">
@@ -17,10 +17,10 @@ const Choose = () => (
                <a href="/SignUp"> <div class="ui inverted blue button" >
                      Sign up with e-mail 
                 </div></a><div class="ui divider horizontal">Or</div>
-                <div class="ui google plus button">
-                    <i class="google plus icon"></i>
-                    Google Plus
-                </div>
+                <Button circular color='facebook' icon='facebook' />
+                <Button circular color='twitter' icon='twitter' />
+                <Button circular color='instagram' icon='instagram' />
+                <Button circular color='google plus' icon='google plus' />
             </div>
         </div>
 </div>

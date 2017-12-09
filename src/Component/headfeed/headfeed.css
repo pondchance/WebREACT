@@ -1,0 +1,10 @@
+.ui.borderless.huge.menu {
+    background-color: #f8f8f8;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  .ui.borderless.huge.menu .row > a.header.item {
+    font-size: 1.2em;
+  }
+  
+  
