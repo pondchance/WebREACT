@@ -1,10 +1,6 @@
 Form{
-   background-color: #7B1C1C;
+  /*background-image: url(p.jpeg);*/
    color: #000000;
     margin: 100px;
     
-}
-.S{
-    background-image: url(p.jpeg);
-    background-size: 1400px 950px;
 }
