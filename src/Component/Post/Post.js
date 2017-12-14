@@ -1,19 +1,22 @@
 import React from 'react'
-import { Icon, Grid, Button, Divider, Container } from 'semantic-ui-react'
+import { Icon, Grid, Button, Divider, Container,Segment } from 'semantic-ui-react'
 
 import GetAllPost from './GetAllPost'
 import PostLeft from './PostLeft'
 const Post = () => (
 
-    <Grid celled='internally'>
+    <Grid >
         <Grid.Column width={4}>
+        <center/>
             <PostLeft/>
         </Grid.Column>
-        <Grid.Column width={8}>
+
+    
+        <Grid.Column width={8}>    <Segment raised>
             <div class="ui form">
                 <div class="field">
                     <label>User Text</label>
-                    <textarea rows="2"></textarea>
+                    <textarea autoHeight ></textarea>
                 </div>
             </div>
             <br />
@@ -26,10 +29,12 @@ const Post = () => (
                 </Button>
             </Container>
             <Divider />
-            <GetAllPost/>
+            <GetAllPost/></Segment>
         </Grid.Column>
+  
+
         <Grid.Column width={4}>
-            <p>ffgf</p>
+            <p></p>
         </Grid.Column>
     </Grid>
 )

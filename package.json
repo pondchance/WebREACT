@@ -6,6 +6,7 @@
     "axios": "^0.17.1",
     "localStorage": "^1.0.3",
     "react": "^16.2.0",
+    "react-body-backgroundcolor": "^1.0.1",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
